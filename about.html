@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About Us | Footprints</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body class="w3-content" style="max-width:1200px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
+  <div class="w3-container w3-display-container w3-padding-16">
+    <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
+    <a href="index.html"><h3 class="w3-wide"><b>FOOTPRINTS</b></h3></a>
+  </div>
+  <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
+    <a href="index.html" class="w3-bar-item w3-button">Home</a>
+    <a href="men.html" class="w3-bar-item w3-button">Men Shoes</a>
+    <a href="women.html" class="w3-bar-item w3-button">Women Shoes</a>
+    <a href="kids.html" class="w3-bar-item w3-button">Kids Shoes</a>
+    <a href="about.html" class="w3-bar-item w3-button">About Us</a>
+  </div>
+  <a href="#footer" class="w3-bar-item w3-button w3-padding">Contact</a> 
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding" onclick="document.getElementById('newsletter').style.display='block'">Newsletter</a> 
+  <a href="#footer"  class="w3-bar-item w3-button w3-padding">Subscribe</a>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
+   <a href="index.html"><div class="w3-bar-item w3-padding-24 w3-wide">FOOTPRINTS</div></a>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:250px">
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+  
+  <!-- Top header -->
+  <header class="w3-container w3-xlarge">
+    <p class="w3-left">Men's Shoes</p>
+    <p class="w3-right">
+       
+      <a href="checkout.html"><i class="fa fa-shopping-cart w3-margin-right"></i></a>
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding" onclick="document.getElementById('searchbar').style.display='block'"><i class="fa fa-search"></i></a>
+      <br>
+       <a href="https://facebook.com/kenneth.afriyie"><i class="fa fa-facebook-official w3-hover-opacity w3-large"></i></a> 
+        <a href="https://instagram.com/kwakuaddo_"><i class="fa fa-instagram w3-hover-opacity w3-large"></i></a> 
+        <a href="https://twitter.com/kwakuaddo__?t=7ytVNCLSSFDYrdZINdenGQ&s=09"><i class="fa fa-twitter w3-hover-opacity w3-large"></i></a>
+        <a href="#"><i class="fa fa-linkedin w3-hover-opacity w3-large"></i></a>
+    </p>
+  </header>
+
+  <!-- Image header -->
+  <div class="w3-display-container w3-container">
+    <video autoplay muted loop id="myVideo">
+  <source src="images/videobg.mp4" type="video/mp4">
+</video>
+<!-- Optional: some overlay text to describe the video -->
+<div class="myvideocontent">
+   <p><a href="#shoes" class="w3-button w3-black w3-padding-large w3-large">SHOP NOW</a></p>
+  <h1>New Arrivals</h1>
+  <!-- Use a button to pause/play the video with JavaScript -->
+  <!--<button id="myBtn" onclick="myFunction()">Pause</button>-->
+</div>
+    <div class="w3-display-topleft w3-text-white" style="padding:15px 30px">
+      
+      
+    </div>
+  </div>
+
+  <div class="w3-container w3-text-grey" id="shoes">
+  </div>
+
+  <!-- About section grid -->
+  <div class="w3-row w3-grayscale">
+    
+      
+        <section class="container" style="font-size: 16pt">
+        <center><h2>About <em>FootPrints</em></h2></center>
+
+        <p>Welcome to our e-commerce website! We are a team of passionate individuals who are dedicated to providing you with a seamless shopping experience. Our goal is to create a platform that allows you to shop for your favorite products in the most convenient and efficient way possible.
+        <br><br><br>
+
+        
+        At our core, we believe that shopping should be an enjoyable experience. This is why we have created an online marketplace that is easy to navigate, filled with a wide variety of products, and designed to provide you with the best deals possible. Whether you are shopping for men's shoes, women's shoes, kid's shoes or any other quality leather shoes, you can rest assured that you will find exactly what you are looking for on our site.  
+        <br><br><br>
+
+        
+        We are committed to providing you with the highest level of customer service possible. Our team is always available to answer any questions you may have and to help you with any issues that may arise. We believe that our success is directly tied to your satisfaction, which is why we are always striving to improve and to exceed your expectations. 
+        <br><br><br>
+
+    
+        We are also committed to giving back to our community. A portion of every sale made on our website goes towards supporting various charitable organizations that are dedicated to making a positive impact in the world. We believe that it is important to use our platform to make a difference and to help those in need.
+        <br><br><br>
+
+        
+        Thank you for choosing our e-commerce website. We hope that you enjoy your shopping experience with us and that you continue to visit us for all of your future needs. If you have any questions or comments, please do not hesitate to contact us.
+        </p>
+        
+    </section>
+      
+    
+  </div>
+  <!-- Footer -->
+  <footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
+    <div class="w3-row-padding">
+      <div class="w3-col s4">
+        <h4>Contact</h4>
+        <p>Questions? Go ahead.</p>
+        <form action="/action_page.php" target="_blank">
+          <p><input class="w3-input w3-border" type="text" placeholder="Name" name="Name" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Email" name="Email" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Subject" name="Subject" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Message" name="Message" required></p>
+          <button type="submit" class="w3-button w3-block w3-black">Send</button>
+        </form>
+      </div>
+
+      <div class="w3-col s4">
+        <h4>About</h4>
+        <p><a href="about.html">About us</a></p>
+       <p><a href="#">Gift card</a></p>
+        <p><a href="#">Return Policy</a></p>
+        <p><a href="#">Help</a></p>
+      </div>
+
+      <div class="w3-col s4 w3-justify">
+        <h4>Store</h4>
+        <p><i class="fa fa-fw fa-map-marker"></i> FootPrints</p>
+        <p><i class="fa fa-fw fa-phone"></i>+233554762343</p>
+        <p><i class="fa fa-fw fa-envelope"></i> info@footprints.com</p>
+        <h4>We accept</h4>
+        <p><i class="fa fa-fw fa-cc-amex"></i> BitCoin</p>
+        <p><i class="fa fa-fw fa-credit-card"></i> Credit Card</p>
+        <br>
+        <a href="https://facebook.com/kenneth.afriyie"><i class="fa fa-facebook-official w3-hover-opacity w3-large"></i></a> 
+        <a href="https://instagram.com/kwakuaddo_"><i class="fa fa-instagram w3-hover-opacity w3-large"></i></a> 
+        <a href="https://twitter.com/kwakuaddo__?t=7ytVNCLSSFDYrdZINdenGQ&s=09"><i class="fa fa-twitter w3-hover-opacity w3-large"></i></a>
+        <a href="#"><i class="fa fa-linkedin w3-hover-opacity w3-large"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="w3-black w3-center w3-padding-24">Powered by <a href="#" title="FootPrints" target="_blank" class="w3-hover-opacity">FootPrints</a></div>
+
+  <!-- End page content -->
+</div>
+
+<!-- Newsletter Modal -->
+<div id="newsletter" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom" style="padding:32px">
+    <div class="w3-container w3-white w3-center">
+      <i onclick="document.getElementById('newsletter').style.display='none'" class="fa fa-remove w3-right w3-button w3-transparent w3-xxlarge"></i>
+      <h2 class="w3-wide">NEWSLETTER</h2>
+      <p>Join our mailing list to receive updates on new arrivals and special offers.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('newsletter').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+<!-- Search Modal -->
+<div id="searchbar" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom" style="padding:32px">
+    <div class="w3-container w3-white w3-center">
+      <i onclick="document.getElementById('seachbar').style.display='none'" class="fa fa-remove w3-right w3-button w3-transparent w3-xxlarge"></i>
+      <h2 class="w3-wide">Search</h2>
+      <p>Search through our products</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="search products..."></p>
+      <button type="button" class="w3-button w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('searchbar').style.display='none'">Submit</button>
+    </div>
+  </div>
+</div>
+<script>
+// Accordion 
+function myAccFunc() {
+  var x = document.getElementById("demoAcc");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// Click on the "Shoes" link on page load to open the accordion for demo purposes
+document.getElementById("myBtn").click();
+
+
+// Open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+<script>
+// Get the video
+var video = document.getElementById("myVideo");
+
+// Get the button
+var btn = document.getElementById("myBtn");
+
+// Pause and play the video, and change the button text
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+
+</body>
+</html>
